@@ -1,0 +1,210 @@
+html {
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* NAVBAR SECTION */
+h2 {
+  padding: 0px 0px 0px 2.2rem;
+}
+
+nav {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px 0px 24px;
+}
+
+.navbar {
+  gap: 30px;
+}
+
+main {
+  margin: 0px auto;
+  padding: 52px 32px 0px 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding-bottom: 2rem;
+}
+section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+}
+
+nav h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+article h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+article p,
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* HERO SECTION */
+#hero1 {
+  width: 45%;
+}
+
+article a {
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 72px;
+  color: white;
+  background-color: rgb(109, 108, 108);
+}
+
+#hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+
+  width: 480px;
+  border-radius: 10px;
+}
+
+button {
+    width: 30%; /* Make the button fill its container */
+    padding: 10px 20px; /* Add padding to button */
+    background-color:#3b82f6; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Round button corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on background color change */
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+.section-header {
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center; /* Distribute space around boxes */
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line if there's not enough space */
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%; /* Set box-wrapper width to approximately 25% minus margins */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.box {
+    border-radius: 10px;
+    width: 50%;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    margin-top: 10px; /* Space between box and caption */
+}
+
+.quote-section {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Space between sections */
+}
+
+.quote-container {
+    max-width: 600px; /* Limit the width of the quote container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-between; /* Space between the two boxes */
+    align-items: center; /* Align items vertically */
+    background-color:#3b82f6; /* Light blue background */
+    padding: 20px;
+    width: 75%;
+    max-width: 800px; /* Limit the width of the flex container */
+    margin: 60px auto; /* Center the flex container horizontally with some margin */
+}
+
+.call-to-action-box h2{
+    color: white;
+    margin-bottom: 2px;;
+    width: 60%; /* Set width for the call-to-action box */
+}
+
+.call-to-action-box p {
+    color: white;
+    padding-left: 34px;
+    margin-top: 0px;
+}
+
+.signup-button-box {
+    width: 30%; /* Set width for the sign-up button box */
+}
+
+.signup-button {
+    width: 100%; /* Make the button fill its container */
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #3667b6; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Round button corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on background color change */
+}
+
+.signup-button:hover {
+    background-color: #005f6b; /* Darker background color on hover */
+}
+
+.footer {
+    text-align: center; /* Center the content */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add padding */
+}
+
+/* Center the copyright text */
+.footer .copyright {
+    margin: 0;
+}
